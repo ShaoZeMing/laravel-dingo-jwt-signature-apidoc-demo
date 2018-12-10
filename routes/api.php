@@ -42,7 +42,7 @@ $api->version('v1', function ($api) {
 
         $api->group([
             'middleware' => [
-//                'signature',
+                'signature',
             ],
         ], function ($api) {
             //之后在这里写api
@@ -55,7 +55,7 @@ $api->version('v1', function ($api) {
         $api->group([
             'middleware' => [
                 'auth:api',
-//                'signature',
+                'signature',
             ],
         ], function ($api) {
             $api->get('/user/me', 'AuthController@me');
