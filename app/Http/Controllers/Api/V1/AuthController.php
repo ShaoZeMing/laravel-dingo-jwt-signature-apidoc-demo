@@ -124,6 +124,7 @@ class AuthController extends Controller
      * @apiGroup Auth
      * @apiPermission jwt
      * @apiUse jwt
+     * @apiUse sign
      * @apiUse Success
      * @apiSampleRequest /api/v1/user/me
      * @apiVersion 1.0.0
@@ -148,6 +149,7 @@ class AuthController extends Controller
      * @apiGroup Auth
      * @apiPermission jwt
      * @apiUse jwt
+     * @apiUse sign
      * @apiUse Success
      * @apiSampleRequest /api/v1/user/refresh
      * @apiVersion 1.0.0
@@ -168,6 +170,7 @@ class AuthController extends Controller
      * @apiGroup Auth
      * @apiPermission jwt
      * @apiUse jwt
+     * @apiUse sign
      * @apiUse Success
      * @apiSampleRequest /api/v1/user/logout
      * @apiVersion 1.0.0
