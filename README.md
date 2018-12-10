@@ -35,3 +35,8 @@
  apidoc -i app/Http/Controllers/ -o public/apidoc/    //生成接口文档
 
 ```
+
+# demo测试地址
+
+- 首页:http://laravel-demo.4d4k.com
+- api文档:http://laravel-demo.4d4k.com/apidoc/
