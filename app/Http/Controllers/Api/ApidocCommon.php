@@ -8,8 +8,8 @@
 
 
 /**
- * @apiDefine sign  用户Signature签名验证验证，将请求的所有参数加进行验签，生成sign
- * @apiParam {string} app_id=mijiahezi 验签查找key使用的秘钥
+ * @apiDefine sign  用户Signature签名验证验证，将请求的所有参数加进行验签，生成sign，这个时间失效默认60秒后就失效可配置
+ * @apiParam {string} app_id=default 多个客户端用于查找对应验证签名key，
  * @apiParam {string} timestamp=15232323323 时间搓
  * @apiParam {string} device_os=mac 客户端系统类型 mac windows ipad ios aos
  * @apiParam {string} [app_ver=1.0.0] app当前版本号
